@@ -18,4 +18,9 @@ arr.splice(3,1); // Removes 1 element at index 3
 console.log(arr); // Output: [1, 2, 3, 5]   
 arr.splice(2, 0, 10); // Adds 10 at index 2 replacing element at index 2
 console.log(arr); // Output: [1, 2, 10, 3, 5]
+console.log("------------------------------");
+const steps = ["open", "fill"];
+ const alias = steps; 
+ steps.push("submit");
+  console.log(alias.length);
 
