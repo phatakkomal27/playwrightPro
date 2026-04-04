@@ -1,0 +1,18 @@
+{
+  "name": "vwo-login-test-automation",
+  "version": "1.0.0",
+  "description": "VWO Login Page Test Automation with Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:debug": "playwright test --debug",
+    "test:headed": "playwright test --headed",
+    "test:arabic": "playwright test test-arabic.spec.ts --reporter=list",
+    "test:chinese": "playwright test test-chinese.spec.ts --reporter=list",
+    "test:dummy": "playwright test test-dummyemail.spec.ts --reporter=list",
+    "test:security": "playwright test test-security.spec.ts --reporter=list",
+    "test:mixed": "playwright test test-mixedlang.spec.ts --reporter=list"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0"
+  }
+}
