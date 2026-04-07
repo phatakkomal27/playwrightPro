@@ -1,0 +1,7 @@
+[    1553ms] [LOG] %cWARNING! color: red; background: yellow; font-size: 24px; @ https://app.vwo.com/js/init-C3RqE2TX.js:1
+[    1554ms] [LOG] %cThis section is intended for developers only. Do not enter or paste code that you do not understand. If someone told you to copy and paste something, kindly report this to security@wingify.com. font-size: 18px; @ https://app.vwo.com/js/init-C3RqE2TX.js:1
+[    2376ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://app.vwo.com/login:0
+[   23762ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://app.vwo.com/#/login:0
+[   23781ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://app.vwo.com/#/login:0
+[   23781ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://app.vwo.com/#/login:0
+[   34465ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://app.vwo.com/plan/prices:0

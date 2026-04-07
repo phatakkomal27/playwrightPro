@@ -1,0 +1,166 @@
+- generic [ref=e1]:
+  - link "" [ref=e2] [cursor=pointer]:
+    - /url: "#"
+    - generic [ref=e3]: 
+  - navigation [ref=e4]:
+    - list [ref=e5]:
+      - link "" [ref=e6] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e7]: 
+      - listitem [ref=e8]:
+        - link "CURA Healthcare" [ref=e9] [cursor=pointer]:
+          - /url: ./
+      - listitem [ref=e10]:
+        - link "Home" [ref=e11] [cursor=pointer]:
+          - /url: ./
+      - listitem [ref=e12]:
+        - link "History" [ref=e13] [cursor=pointer]:
+          - /url: history.php#history
+      - listitem [ref=e14]:
+        - link "Profile" [ref=e15] [cursor=pointer]:
+          - /url: profile.php#profile
+      - listitem [ref=e16]:
+        - link "Logout" [ref=e17] [cursor=pointer]:
+          - /url: authenticate.php?logout
+  - banner [ref=e18]:
+    - generic [ref=e19]:
+      - heading "CURA Healthcare Service" [level=1] [ref=e20]
+      - heading "We Care About Your Health" [level=3] [ref=e21]
+      - link "Make Appointment" [ref=e22] [cursor=pointer]:
+        - /url: ./index.php#appointment
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - heading "Make Appointment" [level=2] [ref=e27]
+      - separator [ref=e28]
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]: Facility
+        - combobox "Facility" [ref=e33]:
+          - option "Tokyo CURA Healthcare Center" [selected]
+          - option "Hongkong CURA Healthcare Center"
+          - option "Seoul CURA Healthcare Center"
+      - generic [ref=e36] [cursor=pointer]:
+        - checkbox "Apply for hospital readmission" [checked] [ref=e37]
+        - text: Apply for hospital readmission
+      - generic [ref=e38]:
+        - generic [ref=e39]: Healthcare Program
+        - generic [ref=e40]:
+          - generic [ref=e41] [cursor=pointer]:
+            - radio "Medicare" [checked] [ref=e42]
+            - text: Medicare
+          - generic [ref=e43] [cursor=pointer]:
+            - radio "Medicaid" [ref=e44]
+            - text: Medicaid
+          - generic [ref=e45] [cursor=pointer]:
+            - radio "None" [ref=e46]
+            - text: None
+      - generic [ref=e47]:
+        - generic [ref=e48]: Visit Date (Required)
+        - generic [ref=e50]:
+          - textbox "Visit Date (Required)" [active] [ref=e51]:
+            - /placeholder: dd/mm/yyyy
+          - generic [ref=e53]: 
+      - generic [ref=e54]:
+        - generic [ref=e55]: Comment
+        - textbox "Comment" [ref=e57]: I need a routine checkup and consultation with the doctor.
+      - button "Book Appointment" [ref=e60] [cursor=pointer]
+  - contentinfo [ref=e61]:
+    - generic [ref=e64]:
+      - heading "CURA Healthcare Service" [level=4] [ref=e65]:
+        - strong [ref=e66]: CURA Healthcare Service
+      - paragraph [ref=e67]:
+        - text: Atlanta 550 Pharr Road NE Suite 525
+        - text: Atlanta, GA 30305
+      - list [ref=e68]:
+        - listitem [ref=e69]:
+          - generic [ref=e70]: 
+          - text: (678) 813-1KMS
+        - listitem [ref=e71]:
+          - generic [ref=e72]: 
+          - link "info@katalon.com" [ref=e73] [cursor=pointer]:
+            - /url: mailto:info@katalon.com
+      - list [ref=e74]:
+        - listitem [ref=e75]:
+          - link "" [ref=e76] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e77]: 
+        - listitem [ref=e78]:
+          - link "" [ref=e79] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e80]: 
+        - listitem [ref=e81]:
+          - link "" [ref=e82] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e83]: 
+      - separator [ref=e84]
+      - paragraph [ref=e85]: Copyright © CURA Healthcare Service 2026
+    - link "" [ref=e86] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=e87]: 
+  - table [ref=e90]:
+    - rowgroup [ref=e91]:
+      - row
+      - row "« April 2026 »" [ref=e92]:
+        - columnheader "«" [ref=e93] [cursor=pointer]
+        - columnheader "April 2026" [ref=e94] [cursor=pointer]
+        - columnheader "»" [ref=e95] [cursor=pointer]
+      - row "Su Mo Tu We Th Fr Sa" [ref=e96]:
+        - columnheader "Su" [ref=e97]
+        - columnheader "Mo" [ref=e98]
+        - columnheader "Tu" [ref=e99]
+        - columnheader "We" [ref=e100]
+        - columnheader "Th" [ref=e101]
+        - columnheader "Fr" [ref=e102]
+        - columnheader "Sa" [ref=e103]
+    - rowgroup [ref=e104]:
+      - row "29 30 31 1 2 3 4" [ref=e105]:
+        - cell "29" [ref=e106]
+        - cell "30" [ref=e107]
+        - cell "31" [ref=e108]
+        - cell "1" [ref=e109]
+        - cell "2" [ref=e110]
+        - cell "3" [ref=e111]
+        - cell "4" [ref=e112]
+      - row "5 6 7 8 9 10 11" [ref=e113]:
+        - cell "5" [ref=e114]
+        - cell "6" [ref=e115]
+        - cell "7" [ref=e116]
+        - cell "8" [ref=e117]
+        - cell "9" [ref=e118]
+        - cell "10" [ref=e119]
+        - cell "11" [ref=e120]
+      - row "12 13 14 15 16 17 18" [ref=e121]:
+        - cell "12" [ref=e122]
+        - cell "13" [ref=e123]
+        - cell "14" [ref=e124]
+        - cell "15" [ref=e125]
+        - cell "16" [ref=e126]
+        - cell "17" [ref=e127]
+        - cell "18" [ref=e128]
+      - row "19 20 21 22 23 24 25" [ref=e129]:
+        - cell "19" [ref=e130]
+        - cell "20" [ref=e131]
+        - cell "21" [ref=e132]
+        - cell "22" [ref=e133]
+        - cell "23" [ref=e134]
+        - cell "24" [ref=e135]
+        - cell "25" [ref=e136]
+      - row "26 27 28 29 30 1 2" [ref=e137]:
+        - cell "26" [ref=e138]
+        - cell "27" [ref=e139]
+        - cell "28" [ref=e140]
+        - cell "29" [ref=e141]
+        - cell "30" [ref=e142]
+        - cell "1" [ref=e143]
+        - cell "2" [ref=e144]
+      - row "3 4 5 6 7 8 9" [ref=e145]:
+        - cell "3" [ref=e146]
+        - cell "4" [ref=e147]
+        - cell "5" [ref=e148]
+        - cell "6" [ref=e149]
+        - cell "7" [ref=e150]
+        - cell "8" [ref=e151]
+        - cell "9" [ref=e152]
+    - rowgroup:
+      - row
+      - row

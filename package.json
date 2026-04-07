@@ -13,6 +13,7 @@
     "test:mixed": "playwright test test-mixedlang.spec.ts --reporter=list"
   },
   "devDependencies": {
-    "@playwright/test": "^1.58.0"
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.5.2"
   }
 }
