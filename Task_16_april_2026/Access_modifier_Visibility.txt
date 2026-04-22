@@ -1,0 +1,11 @@
+Key Concepts Demonstrated:
+Access Level	Within Class	Derived Class	Different Module
+PUBLIC	✓	✓	✓
+PROTECTED	✓	✓	✗
+PRIVATE	✓	✗	✗
+Answer to Your Question:
+Protected members are NOT accessible from different folders or 
+different exports. Protected is specifically designed for inheritance 
+hierarchies only. Even if you export/import a BaseClass from a different 
+module or folder, trying to access its protected members will cause a
+ TypeScript compilation error.
